@@ -1,31 +1,19 @@
-# Space Shooter
+SPACE WAR!!!!!!!!!!!!!!
 
-A Space Shooter 2D game created in Python 3 using Pygames. It takes inspiration from the original Atari Space Invader game.
+mini project for advanced python lab
 
-## Demonstration
+STEPS TO PLAY THIS GAME ON YOUR MACHINE::::
 
-![Gameplay](http://g.recordit.co/ubzHtuUy1N.gif)
+STEP-1 : Clone this repo to your local github.
 
-## How to Play
+STEP-2 : After cloning this repo install requirements using "pip -r install requirements.txt"
 
-- Clone this repository
-- Open the cloned repository
-- Install dependencies ``pip install -r requirements.txt``
-- Run the script ``main.py`` using ``python main.py`` on your Windows terminal.
+STEP-3 : Run the game using the command "python3 main.py" or "python main.py"
 
-### Features to add
 
-- Scores
-- Background Music
-- Boss
-- Ability to pause
+HOPE YOU LIKE THIS GAME!!!!!!
 
-You are free to suggest more features by opening an issue.
+DM For advices and more contributions
 
-## Notes
+Peace ✌️
 
-This project was created and tested under Windows, and is expected to work fully in other systems too.
-
-This project is still under development. Parts of the source codes may not be well documented. Also suitable prompts may not be available for the user at the moment.
-
-More features and fixes are yet to come. Meanwhile suggestions, ideas, bug reports are welcomed.
