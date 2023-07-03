@@ -10,19 +10,19 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("SPACE SHOOTER")
 
 # LOAD SPACESHIPS
-RED_SPACESHIP = pygame.image.load(os.path.join("assets", "pixel_ship_red_small.png"))
-BLUE_SPACESHIP = pygame.image.load(os.path.join("assets", "pixel_ship_blue_small.png"))
-GREEN_SPACESHIP = pygame.image.load(os.path.join("assets", "pixel_ship_green_small.png"))
-YELLOW_SPACESHIP = pygame.image.load(os.path.join("assets", "pixel_ship_yellow.png"))
+RED_SPACESHIP = pygame.image.load(os.path.join("assets", "e_ship_1.png"))
+BLUE_SPACESHIP = pygame.image.load(os.path.join("assets", "e_ship_2.png"))
+GREEN_SPACESHIP = pygame.image.load(os.path.join("assets", "e_ship_3.png"))
+YELLOW_SPACESHIP = pygame.image.load(os.path.join("assets", "S_ship.png"))
 
 # LOAD LASERS
-RED_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_red.png"))
-BLUE_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_blue.png"))
-GREEN_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_green.png"))
-YELLOW_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_yellow.png"))
+RED_LASER = pygame.image.load(os.path.join("assets", "r_bullet.png"))
+BLUE_LASER = pygame.image.load(os.path.join("assets", "r_bullet.png"))
+GREEN_LASER = pygame.image.load(os.path.join("assets", "r_bullet.png"))
+YELLOW_LASER = pygame.image.load(os.path.join("assets", "b_bullet.png"))
 
 # LOAD BACKGROUND
-BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background-black.png")), (WIDTH, HEIGHT))
+BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "bg_img.jpeg")), (WIDTH, HEIGHT))
 
 # LOAD SOUND EFFECTS
 explosion_sound = pygame.mixer.Sound(os.path.join("music", "explosion.wav"))
@@ -171,9 +171,9 @@ def main():
     run = True
     lost = False
     lost_count = 0
-    FPS = 60
+    FPS = 120
     level = 0
-    lives = 5
+    lives = 10
     PLAYER_VEL = 5
     ENEMY_VEL = 1
     LASER_VELO = 5
